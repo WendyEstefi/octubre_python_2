@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mis primeros productos</title>
+    <meta name="description" content="Esta es la descripcion de ">
+
+    <meta property="og:url"
+        content="http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="When Great Minds Don’t Think Alike" />
+    <meta property="og:description" content="How much does culture influence creative thinking?" />
+    <meta property="og:image"
+        content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
+
+</head>
+
+<body>
+    <h1>Mis primeros productos</h1>
+
+    <div itemscope itemtype="https://schema.org/Product">
+
+        <h2 property="name"> Microwave</h2>
+
+        <img property="image" src="https://www.kissu.com.ec/imagenes//productos/md/16585250500.jpg"
+            alt='Kenmore 17" Microwave' />
+
+        <div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+            Calificacion
+            <span property="ratingValue">3.5</span>
+            /5
+            Basado en
+            <span property="reviewCount">11</span>
+            Reseñas de consumidor
+
+        </div>
+
+        <div property="offers" typeof="Offer">
+            <!--price is 1000, a number, with locale-specific thousands separator
+              and decimal mark, and the $ character is marked up with the
+              machine-readable code "USD" -->
+            <span property="priceCurrency" content="USD">$</span><span property="price"
+                content="1000.00">1,000.00</span>
+            <link property="availability" href="https://schema.org/InStock" />In stock
+        </div>
+
+        Product description:
+        <span property="description">0.7 cubic feet countertop microwave.
+            Has six preset cooking categories and convenience features like
+            Add-A-Minute and Child Lock.</span>
+        <div>id= "producto1"</div>
+        
+</body>
+
+</html>
